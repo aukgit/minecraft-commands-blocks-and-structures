@@ -9,3 +9,9 @@ Copy the structures folder under your save files (https://bit.ly/2ZNzPkX)
 [%appdata%\Roaming\.minecraft\saves\[Your World]\generated\minecraft\structures]
 or 
 [C:\Users\[WinUserName]\AppData\Roaming\.minecraft\saves\[Your World]\generated\minecraft\structures]
+
+# How to work with structure blocks
+- [![Structure Blocks by Md. Alim Ul Karim](https://user-images.githubusercontent.com/4561204/86946914-defd6a80-c16c-11ea-9d7e-98198b5a4d1f.png)](https://www.youtube.com/playlist?list=PLvyQkVz9B9S_7VStxutlXBO5YNIqPAr9c)
+
+# How to work with Prefilled ChestBoxes
+- [![Prefilled ChestBoxes by Md. Alim Ul Karim](https://user-images.githubusercontent.com/4561204/86946914-defd6a80-c16c-11ea-9d7e-98198b5a4d1f.png)](https://www.youtube.com/playlist?list=PLvyQkVz9B9S-87nzk9Px9Wf6Bdp9CiOHM)
