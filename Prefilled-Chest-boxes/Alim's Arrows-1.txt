@@ -1,0 +1,25 @@
+/give @p chest{display:{
+    Name:"\"Alim's Arrows-1\"",Lore:["\"Arrows\""]},
+    BlockEntityTag:
+    {Items:
+        [   {
+            Slot:0,
+            id:spectral_arrow,
+            Count:64,
+            tag:{pickup:1, damage:50,Duration:1200,PierceLevel:1}
+            },
+            {
+            Slot:1,
+            id:spectral_arrow,
+            Count:64,
+            tag:{pickup:1, damage:50,Duration:1200,PierceLevel:1}
+            },
+            {
+            Slot:2,
+            id:tipped_arrow,
+            Count:64,
+            tag:{pickup:1, damage:50,Duration:1200,PierceLevel:1}
+            }            
+        ]
+    }
+} 64

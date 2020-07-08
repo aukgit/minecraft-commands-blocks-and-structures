@@ -1,0 +1,18 @@
+/summon minecraft:donkey ~ ~1 ~ {Tame:1,SaddleItem:{id:saddle,Count:1},ChestedHorse:1,Items:[{Slot:2,id:acacia_fence,Count:64},{Slot:3,id:tipped_arrow,Count:64,tag:{Potion:"minecraft:strong_healing"}},{Slot:4,id:gold_ore,Count:64}]}
+
+
+
+
+/give @p fishing_rod{display:{Name:'[{"text":"Alim\'s ","italic":false},{"text":"Rod for Fishing","color":"dark_red"}]'},Enchantments:[{id:looting,lvl:5},{id:luck_of_the_sea,lvl:10},{id:lure,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:8000}]} 1
+
+
+/give @p fishing_rod{display:{Name:'[{"text":"Alim\'s ","italic":false},{"text":"Rod for Good Items","color":"dark_red"}]'},Enchantments:[{id:looting,lvl:5},{id:luck_of_the_sea,lvl:30},{id:lure,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:8000}]} 1
+
+
+
+/give @p fishing_rod{display:{Name:'[{"text":"Alim\'s ","italic":false},{"text":"Rod for ","color":"dark_red"},{"text":"Good Items","color":"yellow"}]'},Enchantments:[{id:luck_of_the_sea,lvl:35},{id:lure,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:100}],Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.luck",Amount:2,Operation:2,UUID:[I; -12065,23876,222852,-47752],Name:"generic.luck"}]} 1
+
+
+/summon donkey ~ ~1 ~ {Invulnerable:1,PersistenceRequired:1,CanPickUpLoot:1b,Tame:1,ActiveEffects:[{Id:1,Amplifier:1,Duration:999999},{Id:5,Amplifier:1,Duration:999999},{Id:6,Amplifier:1,Duration:999999},{Id:8,Amplifier:1,Duration:999999},{Id:10,Amplifier:1,Duration:999999},{Id:24,Amplifier:0,Duration:999999}],SaddleItem:{id:saddle,Count:1},ChestedHorse:1,Items:[{Slot:2,id:acacia_button,Count:12}]}
+
+

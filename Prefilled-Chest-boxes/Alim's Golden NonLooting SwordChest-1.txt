@@ -1,0 +1,25 @@
+/give @p chest{display:{
+    Name:"\"Alim's Golden NonLooting SwordChest-1\"",Lore:["\"Golden non looting sword\""]},
+    BlockEntityTag:
+    {Items:
+        [   {
+            Slot:0,
+            id:golden_sword,
+            Count:64,
+            tag:{display:{Name:"[{\"text\":\"Alim's Non Looting Sword\",\"italic\":false}]"},Enchantments:[{id:bane_of_arthropods,lvl:1000},{id:efficiency,lvl:8000},{id:fire_aspect,lvl:2000},{id:fire_protection,lvl:5000},{id:fortune,lvl:8000},{id:impaling,lvl:100},{id:knockback,lvl:1500},{id:looting,lvl:0},{id:loyalty,lvl:100},{id:piercing,lvl:1000},{id:projectile_protection,lvl:5002},{id:protection,lvl:5000},{id:punch,lvl:100},{id:riptide,lvl:100},{id:sharpness,lvl:5000},{id:smite,lvl:8000},{id:sweeping,lvl:8000},{id:unbreaking,lvl:8000}]}
+            },
+            {
+            Slot:1,
+            id:golden_sword,
+            Count:64,
+            tag:{display:{Name:"[{\"text\":\"Alim's Non Looting Sword\",\"italic\":false}]"},Enchantments:[{id:bane_of_arthropods,lvl:1000},{id:efficiency,lvl:8000},{id:fire_aspect,lvl:2000},{id:fire_protection,lvl:5000},{id:fortune,lvl:8000},{id:impaling,lvl:100},{id:knockback,lvl:1500},{id:looting,lvl:0},{id:loyalty,lvl:100},{id:piercing,lvl:1000},{id:projectile_protection,lvl:5002},{id:protection,lvl:5000},{id:punch,lvl:100},{id:riptide,lvl:100},{id:sharpness,lvl:5000},{id:smite,lvl:8000},{id:sweeping,lvl:8000},{id:unbreaking,lvl:8000}]}
+            },
+            {
+            Slot:2,
+            id:golden_sword,
+            Count:64,
+            tag:{display:{Name:"[{\"text\":\"Alim's Non Looting Sword\",\"italic\":false}]"},Enchantments:[{id:bane_of_arthropods,lvl:1000},{id:efficiency,lvl:8000},{id:fire_aspect,lvl:2000},{id:fire_protection,lvl:5000},{id:fortune,lvl:8000},{id:impaling,lvl:100},{id:knockback,lvl:1500},{id:looting,lvl:0},{id:loyalty,lvl:100},{id:piercing,lvl:1000},{id:projectile_protection,lvl:5002},{id:protection,lvl:5000},{id:punch,lvl:100},{id:riptide,lvl:100},{id:sharpness,lvl:5000},{id:smite,lvl:8000},{id:sweeping,lvl:8000},{id:unbreaking,lvl:8000}]}
+            }
+        ]
+    }
+} 64
