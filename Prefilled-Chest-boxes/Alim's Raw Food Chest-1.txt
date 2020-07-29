@@ -31,17 +31,17 @@
             },
             {
             Slot:5,
-            id:porkchop,
+            id:apple,
             Count:64
             },          
             {
             Slot:6,
-            id:beef,
+            id:carrot,
             Count:64
             },
             {
             Slot:7,
-            id:beef,
+            id:gold_block,
             Count:64
             },
             {

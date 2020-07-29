@@ -29,7 +29,7 @@
             },
             {
             Slot:5,
-            id:grass_block,
+            id:apple,
             Count:64
             },
             {

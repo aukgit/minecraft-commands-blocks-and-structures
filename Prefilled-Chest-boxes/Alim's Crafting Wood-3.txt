@@ -1,5 +1,5 @@
 /give @p chest{display:{
-    Name:"\"Alim's Crafting Wood-3\"",Lore:["\"Oak Stripped, Jungle, Birch Log, Sapling, Door\""]},
+    Name:"\"Alim's Crafting Wood-3.v2\"",Lore:["\"Door\""]},
     BlockEntityTag:
     {Items:
         [   {
@@ -14,12 +14,12 @@
             },
             {
             Slot:2,
-            id:oak_log,
+            id:dark_oak_log,
             Count:64
             },
             {
             Slot:3,
-            id:oak_log,
+            id:dark_oak_log,
             Count:64
             },
             {

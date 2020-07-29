@@ -16,3 +16,7 @@
 /summon donkey ~ ~1 ~ {Invulnerable:1,PersistenceRequired:1,CanPickUpLoot:1b,Tame:1,ActiveEffects:[{Id:1,Amplifier:1,Duration:999999},{Id:5,Amplifier:1,Duration:999999},{Id:6,Amplifier:1,Duration:999999},{Id:8,Amplifier:1,Duration:999999},{Id:10,Amplifier:1,Duration:999999},{Id:24,Amplifier:0,Duration:999999}],SaddleItem:{id:saddle,Count:1},ChestedHorse:1,Items:[{Slot:2,id:acacia_button,Count:12}]}
 
 
+Meding villager
+/summon minecraft:villager ~ ~ ~ {VillagerData:{level:2,profession:"minecraft:librarian",type:"minecraft:desert"},Offers:{Recipes:[{buy:{id:"minecraft:paper",Count:1},buyB:{id:"minecraft:book",Count:1b},sell:{id:"minecraft:enchanted_book",Count:64b,tag:{StoredEnchantments:[{id:"minecraft:mending",lvl:5}]}}}]}}
+
+

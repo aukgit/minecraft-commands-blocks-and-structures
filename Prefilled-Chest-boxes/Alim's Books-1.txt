@@ -1,5 +1,5 @@
 /give @p chest{display:{
-    Name:"\"Alim's Books-1\"",Lore:["\"Books,Sugar Cane, bookshelf\""]},
+    Name:"\"Alim's Books-1\"",Lore:["\"Books,Sugar Cane,Bookshelf\""]},
     BlockEntityTag:
     {Items:
         [   {

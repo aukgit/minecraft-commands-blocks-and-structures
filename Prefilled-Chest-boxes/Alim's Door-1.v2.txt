@@ -1,140 +1,140 @@
 /give @p chest{display:{
-    Name:"\"Alim's Crops-1.v2\"",Lore:["\"Oak Stripped, Jungle, Birch Log, Sapling, Door\""]},
+    Name:"\"Alim's Door-1.v2\"",Lore:["\"Door Wood and Sapling\""]},
     BlockEntityTag:
     {Items:
         [   {
             Slot:0,
-            id:wheat_seeds,
+            id:oak_door,
             Count:64
             },
             {
             Slot:1,
-            id:pumpkin_seeds,
+            id:oak_trapdoor,
             Count:64
             },
             {
             Slot:2,
-            id:melon_seeds,
+            id:jungle_door,
             Count:64
             },
             {
             Slot:3,
-            id:beetroot_seeds,
+            id:oak_fence,
             Count:64
             },
             {
             Slot:4,
-            id:carrot,
+            id:oak_door,
             Count:64
             },
             {
             Slot:5,
-            id:grass_block,
+            id:dark_oak_door,
             Count:64
             },
             {
             Slot:6,
-            id:crimson_fungus,
+            id:birch_door,
             Count:64
             },
             {
             Slot:7,
-            id:grass_block,
+            id:birch_trapdoor,
             Count:64
             },
             {
             Slot:8,
-            id:bone,
+            id:crimson_door,
             Count:64
             },
             {
             Slot:9,
-            id:bone_block,
+            id:warped_door,
             Count:64
             },
             {
             Slot:10,
-            id:wheat,
+            id:iron_door,
             Count:64
             },
             {
             Slot:11,
-            id:sugar_cane,
+            id:iron_trapdoor,
             Count:64
             },
             {
             Slot:12,
-            id:sugar_cane,
+            id:oak_log,
             Count:64
             },
             {
             Slot:13,
-            id:grass_block,
+            id:oak_log,
             Count:64
             },
             {
             Slot:14,
-            id:grass_block,
+            id:oak_trapdoor,
             Count:64
             },
             {
             Slot:15,
-            id:bamboo,
+            id:oak_trapdoor,
             Count:64
             },
             {
             Slot:16,
-            id:grass_block,
+            id:oak_door,
             Count:64
             },
             {
             Slot:17,
-            id:grass_block,
+            id:oak_door,
             Count:64
             },
             {
             Slot:18,
-            id:grass_block,
+            id:oak_fence,
             Count:64
             },
             {
             Slot:19,
-            id:chorus_plant,
+            id:oak_fence,
             Count:64
             },
             {
             Slot:20,
-            id:sweet_berries,
+            id:oak_trapdoor,
             Count:64
             },
             {
             Slot:21,
-            id:potato,
+            id:oak_trapdoor,
             Count:64
             },
             {
             Slot:22,
-            id:nether_wart,
+            id:chest,
             Count:64
             },
             {
             Slot:23,
-            id:water_bucket,
+            id:oak_fence,
             Count:64
             },
             {
             Slot:24,
-            id:sand,
+            id:dark_oak_fence_gate,
             Count:64
             },
             {
             Slot:25,
-            id:soul_sand,
+            id:oak_door,
             Count:64
             },
             {
             Slot:26,
-            id:cactus,
+            id:oak_trapdoor,
             Count:64
             }
         ]

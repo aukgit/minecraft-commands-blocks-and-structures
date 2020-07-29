@@ -1,5 +1,5 @@
 /give @p chest{display:{
-    Name:"\"Alim's Firerocket-2\"",Lore:["\"Firerockets Chests Collections, Fireworks, gunpowder, paper\""]},
+    Name:"\"Alim's Firerocket-2\"",Lore:["\"\""]},
     BlockEntityTag:
     {Items:
         [   {

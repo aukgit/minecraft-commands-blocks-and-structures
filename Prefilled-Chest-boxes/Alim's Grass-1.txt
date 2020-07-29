@@ -1,30 +1,30 @@
 /give @p chest{display:{
-    Name:"\"Alim's Crops-1.v2\"",Lore:["\"Oak Stripped, Jungle, Birch Log, Sapling, Door\""]},
+    Name:"\"Alim's Grass-1\"",Lore:["\"Grass & water\""]},
     BlockEntityTag:
     {Items:
         [   {
             Slot:0,
-            id:wheat_seeds,
+            id:grass_block,
             Count:64
             },
             {
             Slot:1,
-            id:pumpkin_seeds,
+            id:grass_block,
             Count:64
             },
             {
             Slot:2,
-            id:melon_seeds,
+            id:grass_block,
             Count:64
             },
             {
             Slot:3,
-            id:beetroot_seeds,
+            id:grass_block,
             Count:64
             },
             {
             Slot:4,
-            id:carrot,
+            id:grass_block,
             Count:64
             },
             {
@@ -34,7 +34,7 @@
             },
             {
             Slot:6,
-            id:crimson_fungus,
+            id:grass_block,
             Count:64
             },
             {
@@ -44,27 +44,27 @@
             },
             {
             Slot:8,
-            id:bone,
+            id:grass_block,
             Count:64
             },
             {
             Slot:9,
-            id:bone_block,
+            id:grass_block,
             Count:64
             },
             {
             Slot:10,
-            id:wheat,
+            id:grass_block,
             Count:64
             },
             {
             Slot:11,
-            id:sugar_cane,
+            id:grass_block,
             Count:64
             },
             {
             Slot:12,
-            id:sugar_cane,
+            id:grass_block,
             Count:64
             },
             {
@@ -79,7 +79,7 @@
             },
             {
             Slot:15,
-            id:bamboo,
+            id:grass_block,
             Count:64
             },
             {
@@ -99,42 +99,42 @@
             },
             {
             Slot:19,
-            id:chorus_plant,
+            id:grass_block,
             Count:64
             },
             {
             Slot:20,
-            id:sweet_berries,
+            id:oak_trapdoor,
             Count:64
             },
             {
             Slot:21,
-            id:potato,
+            id:oak_trapdoor,
             Count:64
             },
             {
             Slot:22,
-            id:nether_wart,
+            id:grass_block,
             Count:64
             },
             {
             Slot:23,
-            id:water_bucket,
+            id:grass_block,
             Count:64
             },
             {
             Slot:24,
-            id:sand,
+            id:water_bucket,
             Count:64
             },
             {
             Slot:25,
-            id:soul_sand,
+            id:lava_bucket,
             Count:64
             },
             {
             Slot:26,
-            id:cactus,
+            id:torch,
             Count:64
             }
         ]

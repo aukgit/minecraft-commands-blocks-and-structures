@@ -1,28 +1,12 @@
-/summon minecraft:donkey ~ ~1 ~ 
-    {
-        display:{
-            Name:"\"Alim's Favorite Donkey-1\"",
-            Lore:["\"Mixed,Firerocket,Sign,Books,Crops,Food,Stone,Lava\""]
-        },
-        Invulnerable:1,
-        PersistenceRequired:1,
-        CanPickUpLoot:1b,
-        Tame:1,
-        ActiveEffects: [
-            {
-                Id:1,
-                Amplifier:1,
-                Duration:1000
-            },
-            {Id:5,Amplifier:1,Duration:1000},{Id:6,Amplifier:1,Duration:1000},{Id:8,Amplifier:1,Duration:1000},{Id:10,Amplifier:1,Duration:1000},{Id:24,Amplifier:0,Duration:1000}],
-        SaddleItem: {id:saddle,Count:1},
-        ChestedHorse:1,
-        Items:[   
-            {
+/give @p chest{display:{
+    Name:"\"Alim's CraftingCombined-1.v2\"",Lore:["\"Wood1-3,Stone,Crops,Door\""]},
+    BlockEntityTag:
+    {Items:
+        [   {
             Slot:0,
             id:chest,
             Count:64,
-            tag:{display:{Name:"[{\"text\":\"Alim's CraftMixed-1.v2\"}]"}, BlockEntityTag:{Items:[
+            tag:{display:{Name:"[{\"text\":\"Alim's Wood-1.v2\"}]"}, BlockEntityTag:{Items:[
                 {
                 Slot:0,
                 id:oak_log,
@@ -35,207 +19,269 @@
                 },
                 {
                 Slot:2,
-                id:dark_oak_log,
-                Count:64
-                },
-                {
-                Slot:3,
-                id:dark_oak_log,
-                Count:64
-                },
-                {
-                Slot:4,
-                id:birch_log,
-                Count:64
-                },
-                {
-                Slot:5,
                 id:oak_log,
                 Count:64
                 },
                 {
-                Slot:6,
+                Slot:3,
+                id:oak_log,
+                Count:64
+                },
+                {
+                Slot:4,
                 id:grass_block,
+                Count:64
+                },
+                {
+                Slot:5,
+                id:grass_block,
+                Count:64
+                },
+                {
+                Slot:6,
+                id:oak_log,
                 Count:64
                 },
                 {
                 Slot:7,
-                id:torch,
+                id:oak_log,
                 Count:64
                 },
                 {
                 Slot:8,
-                id:torch,
+                id:dark_oak_log,
                 Count:64
                 },
                 {
                 Slot:9,
-                id:birch_sign,
+                id:dark_oak_log,
                 Count:64
                 },
                 {
                 Slot:10,
-                id:iron_block,
+                id:birch_log,
                 Count:64
                 },
                 {
                 Slot:11,
-                id:lava_bucket,
+                id:birch_log,
                 Count:64
                 },
                 {
                 Slot:12,
-                id:water_bucket,
+                id:birch_log,
                 Count:64
                 },
                 {
                 Slot:13,
-                id:chest,
+                id:birch_log,
                 Count:64
                 },
                 {
                 Slot:14,
-                id:chest,
+                id:birch_log,
                 Count:64
                 },
                 {
                 Slot:15,
-                id:coal_block,
+                id:jungle_log,
                 Count:64
                 },
                 {
                 Slot:16,
-                id:grass_block,
+                id:jungle_log,
                 Count:64
                 },
                 {
                 Slot:17,
-                id:furnace,
+                id:jungle_log,
                 Count:64
                 },
                 {
                 Slot:18,
-                id:crafting_table,
+                id:jungle_log,
                 Count:64
                 },
                 {
                 Slot:19,
-                id:yellow_bed,
+                id:spruce_log,
                 Count:64
                 },
                 {
                 Slot:20,
-                id:sheep_spawn_egg,
+                id:spruce_log,
                 Count:64
                 },
                 {
                 Slot:21,
-                id:gold_block,
+                id:oak_sapling,
                 Count:64
                 },
                 {
                 Slot:22,
-                id:diamond_block,
-                Count:64
-                },
-                {
-                Slot:22,
-                id:obsidian,
-                Count:64
-                },
-                {
-                Slot:22,
-                id:obsidian,
+                id:jungle_sapling,
                 Count:64
                 },
                 {
                 Slot:23,
-                id:yellow_shulker_box,
+                id:dark_oak_sapling,
                 Count:64
                 },
                 {
                 Slot:24,
-                id:light_blue_shulker_box,
+                id:spruce_sapling,
                 Count:64
                 },
                 {
                 Slot:25,
-                id:wheat,
+                id:crafting_table,
                 Count:64
-                }      
+                },
+                {
+                Slot:26,
+                id:white_bed,
+                Count:64
+                }
             ]}}
             },
             {
             Slot:1,
             id:chest,
             Count:64,
-            tag:{display:{Name:"[{\"text\":\"Alim's FRocket S-1\"}]"}, BlockEntityTag:{Items:[
+            tag:{display:{Name:"[{\"text\":\"Alim's Wood-2.v2\"}]"}, BlockEntityTag:{Items:[
                 {
                 Slot:0,
-                id:firework_rocket,
-                Count:64,
-                tag: {duration:5}
+                id:oak_log,
+                Count:64
                 },
                 {
                 Slot:1,
-                id:firework_rocket,
-                Count:64,
-                tag: {duration:5}
+                id:oak_log,
+                Count:64
                 },
                 {
                 Slot:2,
-                id:firework_rocket,
-                Count:64,
-                tag: {duration:5}
+                id:dark_oak_log,
+                Count:64
                 },
                 {
                 Slot:3,
-                id:firework_rocket,
-                Count:64,
-                tag: {duration:5}
+                id:dark_oak_log,
+                Count:64
                 },
                 {
                 Slot:4,
-                id:firework_rocket,
-                Count:64,
-                tag: {duration:5}
+                id:dark_oak_log,
+                Count:64
                 },
                 {
                 Slot:5,
-                id:firework_rocket,
-                Count:64,
-                tag: {duration:5}
+                id:stripped_oak_log,
+                Count:64
                 },
                 {
                 Slot:6,
-                id:firework_rocket,
-                Count:64,
-                tag: {duration:5}
+                id:stripped_oak_log,
+                Count:64
                 },
                 {
                 Slot:7,
-                id:firework_rocket,
-                Count:64,
-                tag: {duration:5}
+                id:stripped_oak_log,
+                Count:64
                 },
                 {
                 Slot:8,
-                id:gunpowder,
+                id:stripped_oak_log,
                 Count:64
                 },
                 {
                 Slot:9,
-                id:gunpowder,
+                id:stripped_oak_log,
                 Count:64
                 },
                 {
                 Slot:10,
-                id:paper,
+                id:birch_log,
                 Count:64
                 },
                 {
                 Slot:11,
-                id:paper,
+                id:stripped_birch_log,
+                Count:64
+                },
+                {
+                Slot:12,
+                id:stripped_birch_log,
+                Count:64
+                },
+                {
+                Slot:13,
+                id:stripped_birch_log,
+                Count:64
+                },
+                {
+                Slot:14,
+                id:stripped_birch_log,
+                Count:64
+                },
+                {
+                Slot:15,
+                id:jungle_log,
+                Count:64
+                },
+                {
+                Slot:16,
+                id:stripped_jungle_log,
+                Count:64
+                },
+                {
+                Slot:17,
+                id:stripped_jungle_log,
+                Count:64
+                },
+                {
+                Slot:18,
+                id:jungle_log,
+                Count:64
+                },
+                {
+                Slot:19,
+                id:spruce_log,
+                Count:64
+                },
+                {
+                Slot:20,
+                id:stripped_spruce_log,
+                Count:64
+                },
+                {
+                Slot:21,
+                id:oak_sapling,
+                Count:64
+                },
+                {
+                Slot:22,
+                id:chest,
+                Count:64
+                },
+                {
+                Slot:23,
+                id:chest,
+                Count:64
+                },
+                {
+                Slot:24,
+                id:chest,
+                Count:64
+                },
+                {
+                Slot:25,
+                id:chest,
+                Count:64
+                },
+                {
+                Slot:26,
+                id:birch_sign,
                 Count:64
                 }
             ]}}
@@ -244,135 +290,135 @@
             Slot:2,
             id:chest,
             Count:64,
-            tag:{display:{Name:"[{\"text\":\"Alim's Birch Sign-1\"}]"}, BlockEntityTag:{Items:[
+            tag:{display:{Name:"[{\"text\":\"Alim's Wood-3.v2\"}]"}, BlockEntityTag:{Items:[
                 {
                 Slot:0,
-                id:birch_sign,
+                id:oak_log,
                 Count:64
                 },
                 {
                 Slot:1,
-                id:birch_sign,
+                id:oak_log,
                 Count:64
                 },
                 {
                 Slot:2,
-                id:birch_sign,
+                id:dark_oak_log,
                 Count:64
                 },
                 {
                 Slot:3,
-                id:birch_sign,
+                id:dark_oak_log,
                 Count:64
                 },
                 {
                 Slot:4,
-                id:birch_sign,
+                id:oak_log,
                 Count:64
                 },
                 {
                 Slot:5,
-                id:birch_sign,
+                id:stripped_oak_log,
                 Count:64
                 },
                 {
                 Slot:6,
-                id:birch_sign,
+                id:stripped_oak_log,
                 Count:64
                 },
                 {
                 Slot:7,
-                id:birch_sign,
+                id:stripped_oak_log,
                 Count:64
                 },
                 {
                 Slot:8,
-                id:birch_sign,
+                id:stripped_oak_log,
                 Count:64
                 },
                 {
                 Slot:9,
-                id:birch_sign,
+                id:stripped_oak_log,
                 Count:64
                 },
                 {
                 Slot:10,
-                id:birch_sign,
+                id:birch_log,
                 Count:64
                 },
                 {
                 Slot:11,
-                id:birch_sign,
+                id:ladder,
                 Count:64
                 },
                 {
                 Slot:12,
-                id:birch_sign,
+                id:chest,
                 Count:64
                 },
                 {
                 Slot:13,
-                id:birch_sign,
+                id:chest,
                 Count:64
                 },
                 {
                 Slot:14,
-                id:birch_sign,
+                id:chest,
                 Count:64
                 },
                 {
                 Slot:15,
-                id:birch_sign,
+                id:oak_boat,
                 Count:64
                 },
                 {
                 Slot:16,
-                id:birch_sign,
+                id:item_frame,
                 Count:64
                 },
                 {
                 Slot:17,
-                id:birch_sign,
+                id:oak_stairs,
                 Count:64
                 },
                 {
                 Slot:18,
-                id:birch_sign,
+                id:oak_slab,
                 Count:64
                 },
                 {
                 Slot:19,
-                id:birch_sign,
+                id:oak_slab,
                 Count:64
                 },
                 {
                 Slot:20,
-                id:birch_sign,
+                id:oak_fence,
                 Count:64
                 },
                 {
                 Slot:21,
-                id:birch_sign,
+                id:oak_fence,
                 Count:64
                 },
                 {
                 Slot:22,
-                id:birch_sign,
+                id:dark_oak_fence_gate,
                 Count:64
                 },
                 {
                 Slot:23,
-                id:birch_sign,
+                id:dark_oak_fence_gate,
                 Count:64
                 },
                 {
                 Slot:24,
-                id:birch_sign,
+                id:yellow_bed,
                 Count:64
                 },
                 {
                 Slot:25,
-                id:birch_sign,
+                id:chest,
                 Count:64
                 },
                 {
@@ -384,469 +430,6 @@
             },
             {
             Slot:3,
-            id:chest,
-            Count:64,
-            tag:{display:{Name:"[{\"text\":\"Alim's Books-1\"}]"}, BlockEntityTag:{Items:[
-                {
-                Slot:0,
-                id:paper,
-                Count:64
-                },
-                {
-                Slot:1,
-                id:paper,
-                Count:64
-                },
-                {
-                Slot:2,
-                id:paper,
-                Count:64
-                },
-                {
-                Slot:3,
-                id:paper,
-                Count:64
-                },
-                {
-                Slot:4,
-                id:paper,
-                Count:64
-                },
-                {
-                Slot:5,
-                id:book,
-                Count:64
-                },
-                {
-                Slot:6,
-                id:book,
-                Count:64
-                },
-                {
-                Slot:7,
-                id:book,
-                Count:64
-                },
-                {
-                Slot:8,
-                id:bookshelf,
-                Count:64
-                },
-                {
-                Slot:9,
-                id:bookshelf,
-                Count:64
-                },
-                {
-                Slot:10,
-                id:bookshelf,
-                Count:64
-                },
-                {
-                Slot:11,
-                id:map,
-                Count:64
-                },
-                {
-                Slot:12,
-                id:sugar_cane,
-                Count:64
-                },
-                {
-                Slot:13,
-                id:sugar_cane,
-                Count:64
-                },
-                {
-                Slot:14,
-                id:sugar_cane,
-                Count:64
-                },
-                {
-                Slot:15,
-                id:sugar_cane,
-                Count:64
-                },
-                {
-                Slot:16,
-                id:sugar_cane,
-                Count:64
-                },
-                {
-                Slot:17,
-                id:bookshelf,
-                Count:64
-                },
-                {
-                Slot:18,
-                id:bookshelf,
-                Count:64
-                },
-                {
-                Slot:19,
-                id:book,
-                Count:64
-                },
-                {
-                Slot:20,
-                id:book,
-                Count:64
-                },
-                {
-                Slot:21,
-                id:paper,
-                Count:64
-                },
-                {
-                Slot:22,
-                id:paper,
-                Count:64
-                },
-                {
-                Slot:23,
-                id:leather,
-                Count:64
-                },
-                {
-                Slot:24,
-                id:leather,
-                Count:64
-                },
-                {
-                Slot:25,
-                id:leather,
-                Count:64
-                },
-                {
-                Slot:26,
-                id:leather,
-                Count:64
-                }
-            ]}}
-            },
-            {
-            Slot:4,
-            id:chest,
-            Count:64,
-            tag:{display:{Name:"[{\"text\":\"Alim's Small Torches-1\"}]"}, BlockEntityTag:{Items:[
-                {
-                Slot:0,
-                id:torch,
-                Count:64
-                },
-                {
-                Slot:1,
-                id:torch,
-                Count:64
-                },
-                {
-                Slot:2,
-                id:torch,
-                Count:64
-                },
-                {
-                Slot:3,
-                id:torch,
-                Count:64
-                },
-                {
-                Slot:4,
-                id:torch,
-                Count:64
-                },
-                {
-                Slot:5,
-                id:torch,
-                Count:64
-                },
-                {
-                Slot:6,
-                id:torch,
-                Count:64
-                },
-                {
-                Slot:7,
-                id:torch,
-                Count:64
-                },
-                {
-                Slot:8,
-                id:redstone_torch,
-                Count:64
-                },
-                {
-                Slot:9,
-                id:soul_torch,
-                Count:64
-                },
-                {
-                Slot:10,
-                id:coal_block,
-                Count:64
-                }                
-            ]}}
-            },
-            {
-            Slot:5,
-            id:chest,
-            Count:64,
-            tag:{display:{Name:"[{\"text\":\"Alim's Chests-1.v2\"}]"}, BlockEntityTag:{Items:[
-                {
-                Slot:0,
-                id:chest,
-                Count:64
-                },
-                {
-                Slot:1,
-                id:chest,
-                Count:64
-                },
-                {
-                Slot:2,
-                id:chest,
-                Count:64
-                },
-                {
-                Slot:3,
-                id:chest,
-                Count:64
-                },
-                {
-                Slot:4,
-                id:chest,
-                Count:64
-                },
-                {
-                Slot:5,
-                id:chest,
-                Count:64
-                },
-                {
-                Slot:6,
-                id:chest,
-                Count:64
-                },
-                {
-                Slot:7,
-                id:chest,
-                Count:64
-                },
-                {
-                Slot:8,
-                id:coal_block,
-                Count:64
-                },
-                {
-                Slot:9,
-                id:birch_log,
-                Count:64
-                },
-                {
-                Slot:10,
-                id:birch_log,
-                Count:64
-                },
-                {
-                Slot:11,
-                id:oak_log,
-                Count:64
-                },
-                {
-                Slot:12,
-                id:crafting_table,
-                Count:64
-                },
-                {
-                Slot:13,
-                id:dark_oak_log,
-                Count:64
-                },
-                {
-                Slot:14,
-                id:dark_oak_log,
-                Count:64
-                },
-                {
-                Slot:15,
-                id:chest,
-                Count:64
-                },
-                {
-                Slot:16,
-                id:chest,
-                Count:64
-                },
-                {
-                Slot:17,
-                id:chest,
-                Count:64
-                },
-                {
-                Slot:18,
-                id:chest,
-                Count:64
-                },
-                {
-                Slot:19,
-                id:chest,
-                Count:64
-                },
-                {
-                Slot:20,
-                id:chest,
-                Count:64
-                }
-            ]}}
-            },
-            {
-            Slot:6,
-            id:yellow_shulker_box,
-            Count:64,
-            tag:{display:{Name:"[{\"text\":\"Alim's Empty Shulker-1.v2\"}]",Lore:["\"Shulker,chest,sheep,grass etc\""]}, BlockEntityTag:{Items:[
-                    {
-                    Slot:0,
-                    id:white_shulker_box,
-                    Count:4
-                    },
-                    {
-                    Slot:1,
-                    id:black_shulker_box,
-                    Count:4
-                    },
-                    {
-                    Slot:2,
-                    id:red_shulker_box,
-                    Count:4
-                    },
-                    {
-                    Slot:3,
-                    id:green_shulker_box,
-                    Count:4
-                    },
-                    {
-                    Slot:4,
-                    id:gray_shulker_box,
-                    Count:4
-                    },
-                    {
-                    Slot:4,
-                    id:black_shulker_box,
-                    Count:4
-                    },
-                    {
-                    Slot:5,
-                    id:purple_shulker_box,
-                    Count:4
-                    },
-                    {
-                    Slot:6,
-                    id:orange_shulker_box,
-                    Count:4
-                    },
-                    {
-                    Slot:7,
-                    id:blue_shulker_box,
-                    Count:4
-                    },
-                    {
-                    Slot:8,
-                    id:light_blue_shulker_box,
-                    Count:4
-                    },
-                    {
-                    Slot:9,
-                    id:chest,
-                    Count:64
-                    },
-                    {
-                    Slot:10,
-                    id:shulker_spawn_egg,
-                    Count:64
-                    },
-                    {
-                    Slot:11,
-                    id:oak_log,
-                    Count:64
-                    },
-                    {
-                    Slot:12,
-                    id:oak_log,
-                    Count:64
-                    },
-                    {
-                    Slot:13,
-                    id:lava_bucket,
-                    Count:64
-                    },
-                    {
-                    Slot:14,
-                    id:water_bucket,
-                    Count:64
-                    },
-                    {
-                    Slot:15,
-                    id:sheep_spawn_egg,
-                    Count:64
-                    },
-                    {
-                    Slot:16,
-                    id:crafting_table,
-                    Count:64
-                    },
-                    {
-                    Slot:17,
-                    id:furnace,
-                    Count:64
-                    },
-                    {
-                    Slot:18,
-                    id:grass_block,
-                    Count:64
-                    },
-                    {
-                    Slot:19,
-                    id:cobblestone,
-                    Count:64
-                    },
-                    {
-                    Slot:20,
-                    id:potato,
-                    Count:64
-                    },
-                    {
-                    Slot:21,
-                    id:grass_block,
-                    Count:64
-                    },
-                    {
-                    Slot:22,
-                    id:grass_block,
-                    Count:64
-                    },
-                    {
-                    Slot:23,
-                    id:torch,
-                    Count:64
-                    },
-                    {
-                    Slot:24,
-                    id:coal_block,
-                    Count:64
-                    },
-                    {
-                    Slot:25,
-                    id:carrot,
-                    Count:64
-                    },
-                    {
-                    Slot:26,
-                    id:wheat,
-                    Count:64
-                    }                    
-                ]}}
-            },
-            {
-            Slot:7,
             id:chest,
             Count:64,
             tag:{display:{Name:"[{\"text\":\"Alim's Stone+Torches-1.v2\"}]"}, BlockEntityTag:{Items:[
@@ -988,7 +571,291 @@
             ]}}
             },
             {
-            Slot:8,
+            Slot:4,
+            id:chest,
+            Count:64,
+            tag:{display:{Name:"[{\"text\":\"Alim's ValuedStone-2\"}]"}, BlockEntityTag:{Items:[
+                {
+                Slot:0,
+                id:gold_block,
+                Count:64
+                },
+                {
+                Slot:1,
+                id:netherite_block,
+                Count:64
+                },
+                {
+                Slot:2,
+                id:netherite_block,
+                Count:64
+                },
+                {
+                Slot:3,
+                id:gold_block,
+                Count:64
+                },
+                {
+                Slot:4,
+                id:diamond_block,
+                Count:64
+                },
+                {
+                Slot:5,
+                id:diamond_block,
+                Count:64
+                },
+                {
+                Slot:6,
+                id:redstone_block,
+                Count:64
+                },
+                {
+                Slot:7,
+                id:redstone_block,
+                Count:64
+                },
+                {
+                Slot:8,
+                id:obsidian,
+                Count:64
+                },
+                {
+                Slot:9,
+                id:obsidian,
+                Count:64
+                },
+                {
+                Slot:10,
+                id:emerald_block,
+                Count:64
+                },
+                {
+                Slot:11,
+                id:emerald_block,
+                Count:64
+                },
+                {
+                Slot:12,
+                id:emerald_block,
+                Count:64
+                },
+                {
+                Slot:13,
+                id:lapis_block,
+                Count:64
+                },
+                {
+                Slot:14,
+                id:lapis_block,
+                Count:64
+                },
+                {
+                Slot:15,
+                id:lapis_block,
+                Count:64
+                },
+                {
+                Slot:16,
+                id:iron_block,
+                Count:64
+                },
+                {
+                Slot:17,
+                id:iron_block,
+                Count:64
+                },
+                {
+                Slot:18,
+                id:iron_block,
+                Count:64
+                },
+                {
+                Slot:19,
+                id:iron_block,
+                Count:64
+                },
+                {
+                Slot:20,
+                id:diamond,
+                Count:64
+                },
+                {
+                Slot:21,
+                id:gold_ingot,
+                Count:64
+                },
+                {
+                Slot:22,
+                id:iron_ingot,
+                Count:64
+                },
+                {
+                Slot:23,
+                id:coal_block,
+                Count:64
+                },
+                {
+                Slot:24,
+                id:iron_ingot,
+                Count:64
+                },
+                {
+                Slot:25,
+                id:coal_block,
+                Count:64
+                },
+                {
+                Slot:26,
+                id:lapis_lazuli,
+                Count:64
+                }
+            ]}}
+            },
+            {
+            Slot:5,
+            id:chest,
+            Count:64,
+            tag:{display:{Name:"[{\"text\":\"Alim's Door-1.v2\"}]"}, BlockEntityTag:{Items:[
+                {
+                Slot:0,
+                id:oak_door,
+                Count:64
+                },
+                {
+                Slot:1,
+                id:oak_trapdoor,
+                Count:64
+                },
+                {
+                Slot:2,
+                id:jungle_door,
+                Count:64
+                },
+                {
+                Slot:3,
+                id:oak_fence,
+                Count:64
+                },
+                {
+                Slot:4,
+                id:oak_door,
+                Count:64
+                },
+                {
+                Slot:5,
+                id:dark_oak_door,
+                Count:64
+                },
+                {
+                Slot:6,
+                id:birch_door,
+                Count:64
+                },
+                {
+                Slot:7,
+                id:birch_trapdoor,
+                Count:64
+                },
+                {
+                Slot:8,
+                id:crimson_door,
+                Count:64
+                },
+                {
+                Slot:9,
+                id:warped_door,
+                Count:64
+                },
+                {
+                Slot:10,
+                id:iron_door,
+                Count:64
+                },
+                {
+                Slot:11,
+                id:iron_trapdoor,
+                Count:64
+                },
+                {
+                Slot:12,
+                id:oak_log,
+                Count:64
+                },
+                {
+                Slot:13,
+                id:oak_log,
+                Count:64
+                },
+                {
+                Slot:14,
+                id:oak_trapdoor,
+                Count:64
+                },
+                {
+                Slot:15,
+                id:oak_trapdoor,
+                Count:64
+                },
+                {
+                Slot:16,
+                id:oak_door,
+                Count:64
+                },
+                {
+                Slot:17,
+                id:oak_door,
+                Count:64
+                },
+                {
+                Slot:18,
+                id:oak_fence,
+                Count:64
+                },
+                {
+                Slot:19,
+                id:oak_fence,
+                Count:64
+                },
+                {
+                Slot:20,
+                id:oak_trapdoor,
+                Count:64
+                },
+                {
+                Slot:21,
+                id:oak_trapdoor,
+                Count:64
+                },
+                {
+                Slot:22,
+                id:chest,
+                Count:64
+                },
+                {
+                Slot:23,
+                id:oak_fence,
+                Count:64
+                },
+                {
+                Slot:24,
+                id:dark_oak_fence_gate,
+                Count:64
+                },
+                {
+                Slot:25,
+                id:oak_door,
+                Count:64
+                },
+                {
+                Slot:26,
+                id:oak_trapdoor,
+                Count:64
+                }
+            ]}}
+            },            
+            {
+            Slot:6,
             id:chest,
             Count:64,
             tag:{display:{Name:"[{\"text\":\"Alim's Food-1.v2\"}]"}, BlockEntityTag:{Items:[
@@ -1130,7 +997,149 @@
             ]}}
             },
             {
-            Slot:9,
+            Slot:7,
+            id:chest,
+            Count:64,
+            tag:{display:{Name:"[{\"text\":\"Alim's Raw Food-1.v2\"}]"}, BlockEntityTag:{Items:[
+                    {
+                    Slot:0,
+                    id:mutton,
+                    Count:64
+                    },
+                    {
+                    Slot:1,
+                    id:mutton,
+                    Count:64
+                    },
+                    {
+                    Slot:2,
+                    id:mutton,
+                    Count:64
+                    },            
+                    {
+                    Slot:3,
+                    id:porkchop,
+                    Count:64
+                    },
+                    {
+                    Slot:4,
+                    id:porkchop,
+                    Count:64
+                    },
+                    {
+                    Slot:5,
+                    id:apple,
+                    Count:64
+                    },          
+                    {
+                    Slot:6,
+                    id:carrot,
+                    Count:64
+                    },
+                    {
+                    Slot:7,
+                    id:gold_block,
+                    Count:64
+                    },
+                    {
+                    Slot:8,
+                    id:beef,
+                    Count:64
+                    },
+                    {
+                    Slot:9,
+                    id:rabbit,
+                    Count:64
+                    },
+                    {
+                    Slot:10,
+                    id:rabbit,
+                    Count:64
+                    },
+                    {
+                    Slot:11,
+                    id:rabbit,
+                    Count:64
+                    },
+                    {
+                    Slot:12,
+                    id:chicken,
+                    Count:64
+                    },
+                    {
+                    Slot:13,
+                    id:chicken,
+                    Count:64
+                    },
+                    {
+                    Slot:14,
+                    id:chicken,
+                    Count:64
+                    },
+                    {
+                    Slot:15,
+                    id:salmon,
+                    Count:64
+                    },
+                    {
+                    Slot:16,
+                    id:cod,
+                    Count:64
+                    },
+                    {
+                    Slot:17,
+                    id:milk_bucket,
+                    Count:64
+                    },
+                    {
+                    Slot:18,
+                    id:coal_block,
+                    Count:64
+                    },
+                    {
+                    Slot:19,
+                    id:coal_block,
+                    Count:64
+                    },
+                    {
+                    Slot:20,
+                    id:coal_block,
+                    Count:64
+                    },
+                    {
+                    Slot:21,
+                    id:coal_block,
+                    Count:64
+                    },
+                    {
+                    Slot:22,
+                    id:coal_block,
+                    Count:64
+                    },
+                    {
+                    Slot:23,
+                    id:lava_bucket,
+                    Count:64
+                    },
+                    {
+                    Slot:24,
+                    id:lava_bucket,
+                    Count:64
+                    },
+                    {
+                    Slot:25,
+                    id:crafting_table,
+                    Count:64
+                    },
+                    {
+                    Slot:26,
+                    id:furnace,
+                    Count:64
+                    }
+                ]}}
+            },
+            {
+            Slot:8,
             id:chest,
             Count:64,
             tag:{display:{Name:"[{\"text\":\"Alim's Crops-1.v2\"}]"}, BlockEntityTag:{Items:[
@@ -1151,7 +1160,7 @@
                 },
                 {
                 Slot:3,
-                id:grass_block,
+                id:beetroot_seeds,
                 Count:64
                 },
                 {
@@ -1161,7 +1170,7 @@
                 },
                 {
                 Slot:5,
-                id:apple,
+                id:grass_block,
                 Count:64
                 },
                 {
@@ -1272,112 +1281,102 @@
             ]}}
             },
             {
-            Slot:10,
-            id:chest,
+            Slot:9,
+            id:yellow_shulker_box,
             Count:64,
-            tag:{display:{Name:"[{\"text\":\"Alim's Lava, Bucket Small-1\"}]"}, BlockEntityTag:{Items:[
-                {
-                Slot:0,
-                id:water_bucket,
-                Count:64
-                },
-                {
-                Slot:1,
-                id:milk_bucket,
-                Count:64
-                },
-                {
-                Slot:2,
-                id:bucket,
-                Count:64
-                },
-                {
-                Slot:3,
-                id:lava_bucket,
-                Count:64
-                },
-                {
-                Slot:4,
-                id:lava_bucket,
-                Count:64
-                },
-                {
-                Slot:7,
-                id:coal_block,
-                Count:64
-                },
-                {
-                Slot:8,
-                id:coal_block,
-                Count:64
-                },
-                {
-                Slot:9,
-                id:coal_block,
-                Count:64
-                }
-            ]}}
+            tag:{display:{Name:"[{\"text\":\"Alim's Empty Shulker-2.v2\"}]"}, BlockEntityTag:{Items:[
+                    {
+                    Slot:0,
+                    id:white_shulker_box,
+                    Count:4
+                    },
+                    {
+                    Slot:1,
+                    id:black_shulker_box,
+                    Count:4
+                    },
+                    {
+                    Slot:2,
+                    id:red_shulker_box,
+                    Count:4
+                    },
+                    {
+                    Slot:3,
+                    id:green_shulker_box,
+                    Count:4
+                    },
+                    {
+                    Slot:4,
+                    id:gray_shulker_box,
+                    Count:4
+                    },
+                    {
+                    Slot:4,
+                    id:black_shulker_box,
+                    Count:4
+                    },
+                    {
+                    Slot:5,
+                    id:purple_shulker_box,
+                    Count:4
+                    },
+                    {
+                    Slot:6,
+                    id:orange_shulker_box,
+                    Count:4
+                    },
+                    {
+                    Slot:7,
+                    id:blue_shulker_box,
+                    Count:4
+                    },
+                    {
+                    Slot:8,
+                    id:light_blue_shulker_box,
+                    Count:4
+                    },
+                    {
+                    Slot:9,
+                    id:chest,
+                    Count:64
+                    },
+                    {
+                    Slot:10,
+                    id:shulker_spawn_egg,
+                    Count:64
+                    },
+                    {
+                    Slot:11,
+                    id:grass_block,
+                    Count:64
+                    },
+                    {
+                    Slot:12,
+                    id:oak_log,
+                    Count:64
+                    },
+                    {
+                    Slot:13,
+                    id:sheep_spawn_egg,
+                    Count:64
+                    }
+                ]}}
+            },
+            {
+            Slot:10,
+            id:oak_log,
+            Count:64
             },
             {
             Slot:11,
             id:chest,
-            Count:64,
-            tag:{display:{Name:"[{\"text\":\"Alim's Grass Small-1\"}]"}, BlockEntityTag:{Items:[
-                {
-                Slot:0,
-                id:grass_block,
-                Count:64
-                },
-                {
-                Slot:1,
-                id:grass_block,
-                Count:64
-                },
-                {
-                Slot:2,
-                id:grass_block,
-                Count:64
-                },
-                {
-                Slot:3,
-                id:grass_block,
-                Count:64
-                },
-                {
-                Slot:4,
-                id:grass_block,
-                Count:64
-                },
-                {
-                Slot:5,
-                id:grass_block,
-                Count:64
-                },
-                {
-                Slot:6,
-                id:grass_block,
-                Count:64
-                }                
-            ]}}
+            Count:64
             },
             {
             Slot:12,
-            id:lead,
-            Count:64
-            },
-            {
-            Slot:13,
-            id:dark_oak_fence_gate,
-            Count:64
-            },
-            {
-            Slot:14,
-            id:oak_fence,
-            Count:64
-            },
-            {
-            Slot:15,
-            id:chest,
+            id:coal_block,
             Count:64
             }
-        ]}
+        ]
+    }
+} 64

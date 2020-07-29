@@ -1,5 +1,5 @@
 /give @p chest{display:{
-    Name:"\"Alim's Netherite Armor, Weapons, Elytra Chest-1.v3\"",Lore:["\"Elytra,Netherite(Sword,Axe,...), Armor,\""]},
+    Name:"\"Alim's Netherite Armor-1.v5\"",Lore:["\"Netherite\""]},
     BlockEntityTag:
     {Items:
         [   {
@@ -12,31 +12,31 @@
             Slot:1,
             id:netherite_sword,
             Count:5,
-            tag:{display:{Name:"[{\"text\":\"Alim's Netherite Sword\",\"italic\":false}]"},Enchantments:[{id:bane_of_arthropods,lvl:1000},{id:efficiency,lvl:8000},{id:fire_aspect,lvl:2000},{id:fortune,lvl:8000},{id:knockback,lvl:1500},{id:looting,lvl:8500},{id:loyalty,lvl:100},{id:piercing,lvl:1000},{id:protection,lvl:5000},{id:punch,lvl:100},{id:sharpness,lvl:5000},{id:smite,lvl:5000},{id:sweeping,lvl:5000},{id:unbreaking,lvl:5000}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:600,Operation:0,UUID:[I; -120527,11897,21115,-23794],Name:"generic.attack_damage"},{AttributeName:"generic.attack_knockback",Amount:15,Operation:0,UUID:[I; -120527,11897,21115,-23794],Name:"generic.attack_knockback"},{AttributeName:"generic.attack_speed",Amount:50,Operation:0,UUID:[I; -120527,11897,21115,-23794],Name:"generic.attack_speed"}]}
+            tag:{display:{Name:"[{\"text\":\"Alim's Netherite Sword\"}]"},Enchantments:[{id:bane_of_arthropods,lvl:1000},{id:efficiency,lvl:8000},{id:fire_aspect,lvl:2000},{id:fortune,lvl:8000},{id:knockback,lvl:1500},{id:looting,lvl:8500},{id:loyalty,lvl:100},{id:piercing,lvl:1000},{id:protection,lvl:5000},{id:punch,lvl:100},{id:sharpness,lvl:5000},{id:smite,lvl:5000},{id:sweeping,lvl:5000},{id:unbreaking,lvl:5000}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:600,Operation:0,UUID:[I; -120527,11897,21115,-23794],Name:"generic.attack_damage"},{AttributeName:"generic.attack_knockback",Amount:15,Operation:0,UUID:[I; -120527,11897,21115,-23794],Name:"generic.attack_knockback"},{AttributeName:"generic.attack_speed",Amount:50,Operation:0,UUID:[I; -120527,11897,21115,-23794],Name:"generic.attack_speed"}]}
             },
             {
             Slot:2,
             id:netherite_axe,
             Count:5,
-            tag:{display:{Name:"[{\"text\":\"Alim's \",\"italic\":false},{\"text\":\"Axe\",\"italic\":false,\"color\":\"dark_red\"}]"},Enchantments:[{id:bane_of_arthropods,lvl:5000},{id:efficiency,lvl:1000},{id:fire_aspect,lvl:1000},{id:fortune,lvl:5000},{id:impaling,lvl:5},{id:knockback,lvl:100},{id:looting,lvl:3000},{id:projectile_protection,lvl:4},{id:sharpness,lvl:5000},{id:smite,lvl:5000},{id:sweeping,lvl:800},{id:unbreaking,lvl:5000}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:500,Operation:0,UUID:[I; -120527,11897,21115,-23794],Name:"generic.attack_damage"},{AttributeName:"generic.attack_knockback",Amount:15,Operation:0,UUID:[I; -120527,11897,21115,-23794],Name:"generic.attack_knockback"},{AttributeName:"generic.attack_speed",Amount:10,Operation:0,UUID:[I; -120527,11897,21115,-23794],Name:"generic.attack_speed"}]}
+            tag:{display:{Name:"[{\"text\":\"Alim's \"},{\"text\":\"Axe\",\"color\":\"dark_red\"}]"},Enchantments:[{id:bane_of_arthropods,lvl:5000},{id:efficiency,lvl:1000},{id:fire_aspect,lvl:1000},{id:fortune,lvl:5000},{id:impaling,lvl:5},{id:knockback,lvl:100},{id:looting,lvl:3000},{id:projectile_protection,lvl:4},{id:sharpness,lvl:5000},{id:smite,lvl:5000},{id:sweeping,lvl:800},{id:unbreaking,lvl:5000}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:500,Operation:0,UUID:[I; -120527,11897,21115,-23794],Name:"generic.attack_damage"},{AttributeName:"generic.attack_knockback",Amount:15,Operation:0,UUID:[I; -120527,11897,21115,-23794],Name:"generic.attack_knockback"},{AttributeName:"generic.attack_speed",Amount:10,Operation:0,UUID:[I; -120527,11897,21115,-23794],Name:"generic.attack_speed"}]}
             },
 	        {
             Slot:3,
             id:netherite_shovel,
             Count:5,
-            tag:{display:{Name:"[{\"text\":\"Alim's\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\" \",\"italic\":false},{\"text\":\"Shovel\",\"italic\":false,\"color\":\"green\"}]"},Enchantments:[{id:bane_of_arthropods,lvl:5000},{id:efficiency,lvl:500},{id:fire_aspect,lvl:1000},{id:fortune,lvl:2},{id:impaling,lvl:5},{id:knockback,lvl:100},{id:looting,lvl:1},{id:projectile_protection,lvl:4},{id:sharpness,lvl:5000},{id:smite,lvl:5000},{id:sweeping,lvl:800},{id:unbreaking,lvl:5000}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:100,Operation:0,UUID:[I; -120527,11897,21115,-23794],Name:"generic.attack_damage"},{AttributeName:"generic.attack_speed",Amount:12,Operation:0,UUIDLeast:1,Name:"generic.attack_speed"}]}
+            tag:{display:{Name:"[{\"text\":\"Alim's\",\"color\":\"yellow\"},{\"text\":\" \"},{\"text\":\"Shovel\",\"color\":\"green\"}]"},Enchantments:[{id:bane_of_arthropods,lvl:5000},{id:efficiency,lvl:500},{id:fire_aspect,lvl:1000},{id:fortune,lvl:2},{id:impaling,lvl:5},{id:knockback,lvl:100},{id:looting,lvl:1},{id:projectile_protection,lvl:4},{id:sharpness,lvl:5000},{id:smite,lvl:5000},{id:sweeping,lvl:800},{id:unbreaking,lvl:5000}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:100,Operation:0,UUID:[I; -120527,11897,21115,-23794],Name:"generic.attack_damage"},{AttributeName:"generic.attack_speed",Amount:12,Operation:0,UUIDLeast:1,Name:"generic.attack_speed"}]}
             },
             {
             Slot:4,
             id:netherite_hoe,
             Count:5,
-            tag:{display:{Name:"[{\"text\":\"Alim's\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\" Hoe\",\"italic\":false}]"},Enchantments:[{id:bane_of_arthropods,lvl:5000},{id:efficiency,lvl:1000},{id:fire_aspect,lvl:1000},{id:fortune,lvl:8000},{id:impaling,lvl:5},{id:knockback,lvl:100},{id:looting,lvl:8000},{id:projectile_protection,lvl:4},{id:sharpness,lvl:5000},{id:smite,lvl:5000},{id:sweeping,lvl:800},{id:unbreaking,lvl:5000}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:650,Operation:0,UUID:[I; -120527,3037,223050,-6074],Name:"generic.attack_damage"},{AttributeName:"generic.attack_speed",Amount:50,Operation:0,UUID:[I; -120527,3037,223050,-6074],Name:"generic.attack_speed"}]} 
+            tag:{display:{Name:"[{\"text\":\"Alim's\",\"color\":\"yellow\"},{\"text\":\" Hoe\"}]"},Enchantments:[{id:bane_of_arthropods,lvl:5000},{id:efficiency,lvl:1000},{id:fire_aspect,lvl:1000},{id:fortune,lvl:8000},{id:impaling,lvl:5},{id:knockback,lvl:100},{id:looting,lvl:8000},{id:projectile_protection,lvl:4},{id:sharpness,lvl:5000},{id:smite,lvl:5000},{id:sweeping,lvl:800},{id:unbreaking,lvl:5000}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:650,Operation:0,UUID:[I; -120527,3037,223050,-6074],Name:"generic.attack_damage"},{AttributeName:"generic.attack_speed",Amount:50,Operation:0,UUID:[I; -120527,3037,223050,-6074],Name:"generic.attack_speed"}]} 
             },
             {
             Slot:5,
             id:netherite_pickaxe,
             Count:5,
-            tag:{display:{Name:"[{\"text\":\"Alim's\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\" Pick\",\"italic\":false},{\"text\":\"Axe\",\"italic\":false,\"color\":\"dark_red\"}]"},Enchantments:[{id:bane_of_arthropods,lvl:5000},{id:efficiency,lvl:1000},{id:fire_aspect,lvl:1000},{id:fortune,lvl:8000},{id:impaling,lvl:5},{id:knockback,lvl:100},{id:looting,lvl:8000},{id:projectile_protection,lvl:4},{id:sharpness,lvl:5000},{id:smite,lvl:5000},{id:sweeping,lvl:800},{id:unbreaking,lvl:5000}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:650,Operation:0,UUID:[I; -120527,21754,223357,-43508],Name:"generic.attack_damage"},{AttributeName:"generic.attack_speed",Amount:12,Operation:0,UUID:[I; -120527,21754,223357,-43508],Name:"generic.attack_speed"}]}
+            tag:{display:{Name:"[{\"text\":\"Alim's\",\"color\":\"yellow\"},{\"text\":\" Pick\"},{\"text\":\"Axe\",\"color\":\"dark_red\"}]"},Enchantments:[{id:bane_of_arthropods,lvl:5000},{id:efficiency,lvl:1000},{id:fire_aspect,lvl:1000},{id:fortune,lvl:8000},{id:impaling,lvl:5},{id:knockback,lvl:100},{id:looting,lvl:8000},{id:projectile_protection,lvl:4},{id:sharpness,lvl:5000},{id:smite,lvl:5000},{id:sweeping,lvl:800},{id:unbreaking,lvl:5000}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:650,Operation:0,UUID:[I; -120527,21754,223357,-43508],Name:"generic.attack_damage"},{AttributeName:"generic.attack_speed",Amount:12,Operation:0,UUID:[I; -120527,21754,223357,-43508],Name:"generic.attack_speed"}]}
             },
             {
             Slot:6,
@@ -71,7 +71,7 @@
             Slot:11,
             id:bow,
             Count:5,
-            tag:{display:{Name:"[{\"text\":\"Alim's \",\"italic\":false,\"color\":\"white\"},{\"text\":\"Bow\",\"italic\":false,\"color\":\"yellow\"}]"},Enchantments:[{id:bane_of_arthropods,lvl:5},{id:efficiency,lvl:150},{id:fire_aspect,lvl:3500},{id:flame,lvl:1},{id:fortune,lvl:2500},{id:infinity,lvl:1},{id:looting,lvl:5000},{id:piercing,lvl:2000},{id:power,lvl:100},{id:punch,lvl:2500},{id:quick_charge,lvl:3},{id:smite,lvl:100},{id:unbreaking,lvl:8000}],Damage:-1000,RepairCost:0,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:800,Operation:0,UUID:[I; -120530,944,15545,-1888],Name:"generic.attack_damage"}]}
+            tag:{display:{Name:"[{\"text\":\"Alim's \",\"color\":\"white\"},{\"text\":\"Bow\",\"color\":\"yellow\"}]"},Enchantments:[{id:bane_of_arthropods,lvl:5},{id:efficiency,lvl:150},{id:fire_aspect,lvl:3500},{id:flame,lvl:1},{id:fortune,lvl:2500},{id:infinity,lvl:1},{id:looting,lvl:5000},{id:piercing,lvl:2000},{id:power,lvl:100},{id:punch,lvl:2500},{id:quick_charge,lvl:3},{id:smite,lvl:100},{id:unbreaking,lvl:8000}],Damage:-1000,RepairCost:0,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:800,Operation:0,UUID:[I; -120530,944,15545,-1888],Name:"generic.attack_damage"}]}
             },
             {
             Slot:12,
@@ -82,7 +82,7 @@
             Slot:13,
             id:chest,
             Count:64,
-            tag:{display:{Name:"[{\"text\":\"Alim's Tools Compact-1\",\"italic\":false}]"}, BlockEntityTag:{Items:[
+            tag:{display:{Name:"[{\"text\":\"Alim's Tools Compact-1.v2\"}]"}, BlockEntityTag:{Items:[
                 {
                 Slot:0,
                 id:compass,
@@ -92,7 +92,7 @@
                 Slot:1,
                 id:fishing_rod,
                 Count:3,
-                tag:{display:{Name:'[{"text":"Alim\'s ","italic":false},{"text":"Rod, ","color":"dark_red"},{"text":"Compact Version","color":"yellow"}]'},Enchantments:[{id:luck_of_the_sea,lvl:35},{id:lure,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:100}],Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.luck",Amount:2,Operation:2,UUID:[I; -12065,23876,222852,-47752],Name:"generic.luck"}]}
+                tag:{display:{Name:'[{"text":"Alim\'s "},{"text":"Rod, ","color":"dark_red"},{"text":"Compact Version","color":"yellow"}]'},Enchantments:[{id:luck_of_the_sea,lvl:35},{id:lure,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:100}],Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.luck",Amount:2,Operation:2,UUID:[I; -12065,23876,222852,-47752],Name:"generic.luck"}]}
                 },
                 {
                 Slot:2,
@@ -109,7 +109,7 @@
                 Slot:4,
                 id:crossbow,
                 Count:3,
-                tag:{display:{Name:"[{\"text\":\"Alim's \",\"italic\":false,\"color\":\"white\"},{\"text\":\"Cross\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"bow\",\"italic\":false,\"color\":\"dark_red\"}]"},AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:1000,Operation:10,UUIDLeast:1,UUIDMost:1},{AttributeName:"generic.attack_damage",Amount:1000,Operation:0,UUID:[I; -120530,944,15545,-1888],Name:"generic.attack_damage"}, {AttributeName:generic.luck,Amount:1000,Operation:1,UUIDLeast:158492000,UUIDMost:99,Name:generic.luck}], Enchantments:[{id:bane_of_arthropods,lvl:5},{id:channeling,lvl:1},{id:efficiency,lvl:100},{id:fire_aspect,lvl:500},{id:flame,lvl:1000},{id:fortune,lvl:100},{id:impaling,lvl:100},{id:knockback,lvl:100},{id:looting,lvl:2500},{id:loyalty,lvl:100},{id:multishot,lvl:1},{id:piercing,lvl:500},{id:power,lvl:1000},{id:punch,lvl:1000},{id:quick_charge,lvl:5},{id:respiration,lvl:500},{id:riptide,lvl:500},{id:sharpness,lvl:100},{id:silk_touch,lvl:500},{id:smite,lvl:500},{id:unbreaking,lvl:500}],Unbreakable:1}
+                tag:{display:{Name:"[{\"text\":\"Alim's \",\"color\":\"white\"},{\"text\":\"Cross\",\"color\":\"yellow\"},{\"text\":\"bow\",\"color\":\"dark_red\"}]"},AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:1000,Operation:10,UUIDLeast:1,UUIDMost:1},{AttributeName:"generic.attack_damage",Amount:1000,Operation:0,UUID:[I; -120530,944,15545,-1888],Name:"generic.attack_damage"}, {AttributeName:generic.luck,Amount:1000,Operation:1,UUIDLeast:158492000,UUIDMost:99,Name:generic.luck}], Enchantments:[{id:bane_of_arthropods,lvl:5},{id:channeling,lvl:1},{id:efficiency,lvl:100},{id:fire_aspect,lvl:500},{id:flame,lvl:1000},{id:fortune,lvl:100},{id:impaling,lvl:100},{id:knockback,lvl:100},{id:looting,lvl:2500},{id:loyalty,lvl:100},{id:multishot,lvl:1},{id:piercing,lvl:500},{id:power,lvl:1000},{id:punch,lvl:1000},{id:quick_charge,lvl:5},{id:respiration,lvl:500},{id:riptide,lvl:500},{id:sharpness,lvl:100},{id:silk_touch,lvl:500},{id:smite,lvl:500},{id:unbreaking,lvl:500}],Unbreakable:1}
                 },
                 {
                 Slot:5,
@@ -138,13 +138,13 @@
                 Slot:9,
                 id:diamond_hoe,
                 Count:10,
-                tag: {Enchantments:[{id:efficiency,lvl:3},{id:fortune,lvl:8000},{id:looting,lvl:8000},{id:unbreaking,lvl:8000}]} 
+                tag: {Enchantments:[{id:efficiency,lvl:3},{id:sharpness,lvl:5000},{id:fortune,lvl:8000},{id:looting,lvl:8000},{id:unbreaking,lvl:8000}]} 
                 },
                 {
                 Slot:10,
                 id:netherite_pickaxe,
                 Count:10,
-                tag: {display:{Name:'[{"text":"Alim\'s ","italic":false},{"text":"Slick ","color":"yellow"},{"text":"Touch ","color":"dark_purple"},{"text":"PickAxe","color":"dark_red"}]'},Enchantments:[{id:silk_touch,lvl:1},{id:efficiency,lvl:800},{id:fortune,lvl:8000},{id:looting,lvl:8000},{id:unbreaking,lvl:8000}]} 
+                tag: {display:{Name:'[{"text":"Alim\'s "},{"text":"Slick ","color":"yellow"},{"text":"Touch ","color":"dark_purple"},{"text":"PickAxe","color":"dark_red"}]'},Enchantments:[{id:silk_touch,lvl:1},{id:efficiency,lvl:800},{id:fortune,lvl:8000},{id:looting,lvl:8000},{id:unbreaking,lvl:8000}]} 
                 },
                 {
                 Slot:11,
@@ -173,12 +173,12 @@
                 },
                 {
                 Slot:16,
-                id:melon_seeds,
+                id:wheat,
                 Count:64
                 },
                 {
                 Slot:17,
-                id:pumpkin_seeds,
+                id:wheat,
                 Count:64
                 },
                 {
@@ -200,7 +200,7 @@
                 Slot:21,
                 id:chest,
                 Count:64,
-                tag:{display:{Name:"[{\"text\":\"Alim's Firerocket Small-1\",\"italic\":false}]"}, BlockEntityTag:{Items:[
+                tag:{display:{Name:"[{\"text\":\"Alim's Firerocket Small-1\"}]"}, BlockEntityTag:{Items:[
                     {
                     Slot:0,
                     id:firework_rocket,
@@ -275,7 +275,7 @@
                 Slot:22,
                 id:chest,
                 Count:64,
-                tag:{display:{Name:"[{\"text\":\"Alim's Arrows-1\",\"italic\":false}]"}, BlockEntityTag:{Items:[
+                tag:{display:{Name:"[{\"text\":\"Alim's Arrows-1\"}]"}, BlockEntityTag:{Items:[
                     {
                     Slot:0,
                     id:spectral_arrow,
@@ -306,7 +306,7 @@
                 Slot:23,
                 id:chest,
                 Count:64,
-                tag:{display:{Name:"[{\"text\":\"Alim's Crafting Mixed-1\",\"italic\":false}]"}, BlockEntityTag:{Items:[
+                tag:{display:{Name:"[{\"text\":\"Alim's CraftMixed-1.v2\"}]"}, BlockEntityTag:{Items:[
                     {
                     Slot:0,
                     id:oak_log,
@@ -314,12 +314,12 @@
                     },
                     {
                     Slot:1,
-                    id:dark_oak_log,
+                    id:oak_log,
                     Count:64
                     },
                     {
                     Slot:2,
-                    id:oak_log,
+                    id:dark_oak_log,
                     Count:64
                     },
                     {
@@ -339,7 +339,7 @@
                     },
                     {
                     Slot:6,
-                    id:oak_log,
+                    id:grass_block,
                     Count:64
                     },
                     {
@@ -389,7 +389,7 @@
                     },
                     {
                     Slot:16,
-                    id:coal_block,
+                    id:grass_block,
                     Count:64
                     },
                     {
@@ -409,7 +409,7 @@
                     },
                     {
                     Slot:20,
-                    id:white_wool,
+                    id:sheep_spawn_egg,
                     Count:64
                     },
                     {
@@ -444,9 +444,14 @@
                     },
                     {
                     Slot:25,
-                    id:white_shulker_box,
+                    id:wheat,
                     Count:64
-                    }      
+                    },
+                    {
+                    Slot:26,
+                    id:bamboo,
+                    Count:64
+                    }
                 ]}}
                 },
                 {
@@ -461,7 +466,7 @@
                 },
                 {
                 Slot:26,
-                id:bamboo,
+                id:wheat_seeds,
                 Count:64
                 }
             ]}}
@@ -479,14 +484,12 @@
             {
             Slot:16,
             id:netherite_block,
-            Count:64,
-            tag:{duration:3}
+            Count:64
             },  
             {
             Slot:16,
             id:iron_block,
-            Count:64,
-            tag:{duration:3}
+            Count:64
             },          
             {
             Slot:22,
@@ -513,8 +516,8 @@
             Slot:26,
             id:netherite_sword,
             Count:5,
-            tag:{display:{Name:"[{\"text\":\"Alim's Non Looting Sword\",\"italic\":false}]"},Enchantments:[{id:bane_of_arthropods,lvl:1000},{id:efficiency,lvl:8000},{id:fire_aspect,lvl:2000},{id:fire_protection,lvl:5000},{id:piercing,lvl:1000},{id:protection,lvl:5000},{id:punch,lvl:100},{id:sharpness,lvl:5000},{id:smite,lvl:8000},{id:sweeping,lvl:8000},{id:unbreaking,lvl:8000}]}
+            tag:{display:{Name:"[{\"text\":\"Alim's Non Looting Sword\"}]"},Enchantments:[{id:bane_of_arthropods,lvl:1000},{id:efficiency,lvl:8000},{id:fire_aspect,lvl:2000},{id:fire_protection,lvl:5000},{id:piercing,lvl:1000},{id:protection,lvl:5000},{id:punch,lvl:100},{id:sharpness,lvl:5000},{id:smite,lvl:8000},{id:sweeping,lvl:8000},{id:unbreaking,lvl:8000}]}
             }
         ]
     }
-} 24
+} 64
