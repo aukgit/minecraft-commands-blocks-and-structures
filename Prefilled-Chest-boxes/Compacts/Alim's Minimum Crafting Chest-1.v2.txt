@@ -1,5 +1,5 @@
 /give @p chest{display:{
-    Name:"\"Alim's MinCraft-1.v2\"",Lore:["\"Fire,Sign,Torch,Book etc\""]},
+    Name:"\"Alim's MinCraft-1.v3\"",Lore:["\"\""]},
     BlockEntityTag:
     {Items:
         [   
@@ -269,31 +269,6 @@
                 Slot:7,
                 id:birch_sign,
                 Count:64
-                },
-                {
-                Slot:8,
-                id:birch_sign,
-                Count:64
-                },
-                {
-                Slot:9,
-                id:birch_sign,
-                Count:64
-                },
-                {
-                Slot:10,
-                id:birch_sign,
-                Count:64
-                },
-                {
-                Slot:11,
-                id:birch_sign,
-                Count:64
-                },
-                {
-                Slot:12,
-                id:birch_sign,
-                Count:64
                 }
             ]}}
             },
@@ -333,16 +308,6 @@
                 },
                 {
                 Slot:5,
-                id:book,
-                Count:64
-                },
-                {
-                Slot:6,
-                id:book,
-                Count:64
-                },
-                {
-                Slot:7,
                 id:book,
                 Count:64
                 },
@@ -1149,63 +1114,6 @@
             ]}}
             },
             {
-            Slot:11,
-            id:chest,
-            Count:64,
-            tag:{display:{Name:"[{\"text\":\"Alim's Grass Small-1\"}]"}, BlockEntityTag:{Items:[
-                {
-                Slot:0,
-                id:grass_block,
-                Count:64
-                },
-                {
-                Slot:1,
-                id:grass_block,
-                Count:64
-                },
-                {
-                Slot:2,
-                id:grass_block,
-                Count:64
-                },
-                {
-                Slot:3,
-                id:grass_block,
-                Count:64
-                },
-                {
-                Slot:4,
-                id:grass_block,
-                Count:64
-                },
-                {
-                Slot:5,
-                id:grass_block,
-                Count:64
-                },
-                {
-                Slot:6,
-                id:grass_block,
-                Count:64
-                },
-                {
-                Slot:7,
-                id:grass_block,
-                Count:64
-                },
-                {
-                Slot:8,
-                id:grass_block,
-                Count:64
-                },
-                {
-                Slot:9,
-                id:grass_block,
-                Count:64
-                }
-            ]}}
-            },
-            {
             Slot:12,
             id:grass_block,
             Count:64
@@ -1289,8 +1197,92 @@
             },
             {
             Slot:20,
-            id:dark_oak_sapling,
+            id:chest,
             Count:64,
+            tag:{display:{Name:"[{\"text\":\"Alim's Grass-2\"}]"}, BlockEntityTag:{Items:[
+                {
+                Slot:0,
+                id:chest,
+                Count:64,
+                tag:{display:{Name:"[{\"text\":\"Alim's Grass Small-1\"}]"}, BlockEntityTag:{Items:[
+                    {
+                    Slot:0,
+                    id:grass_block,
+                    Count:64
+                    },
+                    {
+                    Slot:1,
+                    id:grass_block,
+                    Count:64
+                    },
+                    {
+                    Slot:2,
+                    id:grass_block,
+                    Count:64
+                    },
+                    {
+                    Slot:3,
+                    id:grass_block,
+                    Count:64
+                    },
+                    {
+                    Slot:4,
+                    id:grass_block,
+                    Count:64
+                    },
+                    {
+                    Slot:5,
+                    id:grass_block,
+                    Count:64
+                    }
+                ]}}
+                },
+                {
+                Slot:1,
+                id:grass_block,
+                Count:64
+                },
+                {
+                Slot:2,
+                id:chest,
+                Count:64
+                },
+                {
+                Slot:3,
+                id:oak_log,
+                Count:64
+                },
+                {
+                Slot:5,
+                id:grass_block,
+                Count:64
+                },
+                {
+                Slot:6,
+                id:grass_block,
+                Count:64
+                },
+                {
+                Slot:7,
+                id:grass_block,
+                Count:64
+                },
+                {
+                Slot:8,
+                id:grass_block,
+                Count:64
+                },
+                {
+                Slot:9,
+                id:torch,
+                Count:64
+                },
+                {
+                Slot:10,
+                id:coal_ore,
+                Count:64
+                }
+            ]}}
             },
             {
             Slot:21,
